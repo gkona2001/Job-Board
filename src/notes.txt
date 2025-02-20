@@ -1,0 +1,10 @@
+How objects are passes as params:
+        export default function ImageUpload({icon}:{icon:IconDefinition}) 
+{ icon } → Destructures the icon property from the passed object.
+:{ icon: IconDefinition } → Type annotation ensures that icon is of type IconDefinition (from FontAwesome).
+can also use: export default function ImageUpload(props: { icon: IconDefinition })
+
+
+<input ref={fileInRef} type="file" />
+This <input> is used for file selection. It is hidden by default, so the user doesn't directly interact with it.
+The ref={fileInRef} part links this input element to the fileInRef reference, so you can access and manipulate it programmatically.

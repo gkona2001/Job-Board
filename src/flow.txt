@@ -1,0 +1,15 @@
+
+
+##Creating companies
+Created a new listing page to post jobs
+User should be logged in
+User should have company to post a job, he can also create one
+{user} and {workos} needed
+To Create company we send the input from 'form' to new page where we add new organization
+
+
+#S3
+created S3 bucket
+created user
+created poilicy and attached to user with s3 access to that bucket
+created access key and added them to my local project .env
